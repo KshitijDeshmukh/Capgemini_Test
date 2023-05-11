@@ -47,7 +47,7 @@ for($i=0; $i -lt 10; $i++){
 $path='Folder'+$i
 
 for($k=0; $k -lt 10; $k++){
-$fileName='File '+$i+'.txt'
+$fileName='File '+$k+'.txt'
 Remove-Item -Path $path/$fileName -Recurse 
 }
 }
